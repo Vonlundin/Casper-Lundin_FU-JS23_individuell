@@ -1,0 +1,89 @@
+.cart-page {
+  width: 342px;
+  height: 655px;
+  background-color: white;
+  position: absolute;
+  top: 4.5rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  color: rgba(47, 41, 38, 1);
+  z-index: 3;
+
+  h1 {
+    font-family: PT Serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+  }
+  &__display-items {
+    max-width: 311px;
+    height: 319px;
+    max-height: 100vh;
+    overflow-y: auto;
+
+    ul {
+      list-style: none;
+    }
+  }
+  &__display-items::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  &__display-total {
+    display: grid;
+    grid-template-columns: 220px 80px;
+  }
+  &__total-title {
+    font-family: PT Serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: -5px;
+    overflow: hidden;
+    text-wrap: nowrap;
+    span {
+      margin-left: 4px;
+      font-size: 8px;
+      letter-spacing: 2px;
+    }
+  }
+  &__total-text {
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  &__price {
+    font-family: PT Serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-left: 10px;
+  }
+  &__button {
+    background-color: rgba(47, 41, 38, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 248px;
+    height: 55px;
+    border: none;
+    border-radius: 50px;
+    font-family: PT Serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    cursor: pointer;
+  }
+}
+
+.cart-page::before {
+  content: "";
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-bottom: 14px solid rgb(255, 255, 255);
+  position: absolute;
+  top: -10px;
+  right: 15px;
+}

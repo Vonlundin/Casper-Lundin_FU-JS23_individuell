@@ -1,0 +1,27 @@
+.landing-page {
+  cursor: pointer;
+  position: relative;
+  width: 375px;
+  height: 667px;
+  background-color: rgba(56, 132, 109, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__img--left {
+    position: absolute;
+    left: 0px;
+  }
+  &__logo {
+    height: 149px;
+    width: 257px;
+    margin-top: 10px;
+    margin-right: 2px;
+    z-index: 1;
+  }
+
+  &__img--right {
+    position: absolute;
+    right: 0px;
+  }
+}

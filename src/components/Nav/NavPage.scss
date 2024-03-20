@@ -1,0 +1,38 @@
+.nav-page {
+  background-color: rgba(47, 41, 38, 1);
+  color: white;
+  width: 375px;
+  height: 667px;
+
+  position: absolute;
+  z-index: 4;
+  top: 0;
+  &__close-icon {
+    margin: 15px;
+    cursor: pointer;
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+
+    .menu__line {
+      color: white;
+    }
+
+    .menu__item {
+      font-family: PT Serif;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 38px;
+      letter-spacing: 0em;
+      text-align: center;
+      margin: 17px;
+      width: 311px;
+      height: 45px;
+      cursor: pointer;
+    }
+  }
+}

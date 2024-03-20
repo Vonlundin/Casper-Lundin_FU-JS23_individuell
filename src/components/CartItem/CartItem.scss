@@ -1,0 +1,46 @@
+.cart-item {
+  color: rgba(47, 41, 38, 1);
+  display: grid;
+  grid-template-columns: 270px 20px;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+
+  &__title {
+    font-family: PT Serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    overflow: hidden;
+    text-wrap: nowrap;
+    span {
+      margin-left: 4px;
+      font-size: 8px;
+      letter-spacing: 2px;
+    }
+  }
+
+  &__price {
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  &__quantity {
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    margin: -3px 0 -6px 0;
+  }
+  &__quantity-container {
+    justify-self: center;
+    margin-bottom: 10px;
+
+    img {
+      cursor: pointer;
+    }
+  }
+}

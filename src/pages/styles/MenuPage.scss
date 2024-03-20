@@ -1,0 +1,49 @@
+.menu-page {
+  background-color: rgba(243, 228, 225, 1);
+  width: 375px;
+  height: 839px;
+  position: relative;
+  color: rgba(47, 41, 38, 1);
+  z-index: 3;
+
+  &__header {
+    height: 113px;
+  }
+
+  &__icons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+  &__nav-icon {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__title {
+      font-family: PT Serif;
+      font-size: 42px;
+      font-weight: 700;
+      line-height: 50px;
+      margin: 0;
+    }
+
+    ul {
+      list-style: none;
+    }
+  }
+
+  &__footer {
+    width: 375px;
+    height: 73px;
+    position: absolute;
+    bottom: 0px;
+  }
+}

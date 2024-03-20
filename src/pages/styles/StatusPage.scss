@@ -1,0 +1,61 @@
+.status-page {
+  background-color: rgba(229, 103, 78, 1);
+  width: 375px;
+  height: 667px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+
+  &__ordernumber {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+
+    span {
+      font-family: Work Sans;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 19px;
+    }
+  }
+
+  &__ordertext {
+    font-family: PT Serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    text-align: center;
+    margin-bottom: -30px;
+  }
+
+  &__minutes {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
+
+    span {
+      font-family: Work Sans;
+      font-size: 23px;
+      font-weight: 700;
+      line-height: 26px;
+    }
+  }
+
+  &__button {
+    font-family: "PT Serif", "serif";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    width: 184px;
+    height: 55px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+  }
+}
